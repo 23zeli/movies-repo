@@ -1,12 +1,9 @@
 import React from "react";
-import apikey from "../data/config";
 
 
 function Main() {
   const [movies, setMovies] = React.useState([])
   const [searchTerm, setSearchTerm] = React.useState('')
-
-  console.log(import.meta.env)
   
   const apiKey = import.meta.env.VITE_API_KEY;
 
