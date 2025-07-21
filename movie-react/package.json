@@ -1,7 +1,6 @@
 {
   "name": "movie-react",
   "homepage": "https://23zeli.github.io/movies-repo/",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,6 +26,7 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
   }
