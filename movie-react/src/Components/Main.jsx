@@ -17,8 +17,6 @@ function Main() {
     fetchMovies(searchTerm)
   }, [searchTerm]);
 
-  console.log(movies)
-
   const handleSearch = (e) => {
        e.preventDefault();
        setSearchTerm(e.target.value);
